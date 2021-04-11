@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //test
                 String t = String.valueOf(Integer.valueOf(String.valueOf(text.getText())) * 23);
                 Toast.makeText(getApplicationContext(), t,
                         Toast.LENGTH_LONG).show();
